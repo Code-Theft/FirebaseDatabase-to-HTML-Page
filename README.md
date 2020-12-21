@@ -4,13 +4,10 @@ Simple project code to fetch data from Firebase RealTime Databse and view it in 
 
 Get Started with Firebase : https://firebase.google.com/docs/web/setup
 
-Copy your web app's Firebase configuration :
+Copy your web app's Firebase configuration 
+Project Settings-->General--> Your Apps ----> Firebase SDK snippet---.CDN
 
-      Project Settings-->General--> Your Apps ----> Firebase SDK snippet---.CDN
-      
-      
-      var firebaseConfig = {
-  apiKey: "API_KEY",
+      var firebaseConfig = {  apiKey: "API_KEY",
   authDomain: "PROJECT_ID.firebaseapp.com",
   databaseURL: "https://PROJECT_ID.firebaseio.com",
   projectId: "PROJECT_ID",
